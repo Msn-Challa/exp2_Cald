@@ -111,6 +111,18 @@ hr {
     overflow: hidden;
 }
 
+.velo-buscador {
+    position: fixed;
+    background: black;
+    opacity: 0.1;
+    height: 50000px;
+    width: 100%;
+    z-index: 20;
+    display: none;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
 .menu-columna-auxiliar li i {
     font-size: 9px;
     padding-right: 1px;
