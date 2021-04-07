@@ -1,3 +1,15 @@
+body{
+    background-color: #DCE7E6;
+}
+hr{
+    width: 300px;
+    
+}
+#pwords{
+    width: 500px;
+    text-align: center;
+    
+}
 .busqueda{
     width:100px;
     border-top-left-radius: 0px;
@@ -17,17 +29,19 @@
 }
 .navbar{
     background-color: #DCE7E6;
+    border-style: solid;
+    border-color: #DCE7E6;
+    border-bottom-color: #B8C7D2;
     
 }
 .carusel{
     height: 300px;
+    
+    border-radius: 10px;
 }
-.navdown{
-height: 2px;
-background-color: #B8C7D2;
-}
+
 .tit{
-background-color: #E8EDF2 ;
+background-color: #DCE7E6;
 
 border-radius: 10px;
 border-top-right-radius: 2px;
@@ -51,8 +65,51 @@ border-color: aliceblue;
     background-color: #B8C7D2 ;
 
 }
+.words{
+    text-align: center;
+}
 .carrusel{
     border-radius: 10px;
+}
+.footer{
+    background-color: #64696D;
+   
+}
+
+.carousell{
+   
+    min-height: 240px;
+    padding: 40px;
+    border-radius: 2px;
+    text-align: center;
+}
+.carousell p{
+    font-size: 26px;
+    font-weight: 400px;
+    color: #1a1a1a;
+}
+.raiting i{
+    color: #4BA7C6;
+    font-size: 26px;
+   
+}
+.testimonial-user{
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: left;
+}
+.testimonial-user h6{
+    margin-bottom: 0px;
+}
+.testimonial-user span{
+    font-size: 12px;
+}
+.testimonial-user img{
+    border-radius: 50%;
+    max-width: 50px;
+    text-align: center;
+    align-self: center;
+    
 }
 #galeria .col-lg-4 {
     margin: 0 !important;
