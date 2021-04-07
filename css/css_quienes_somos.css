@@ -1,0 +1,144 @@
+/*configuración general*/
+
+/*fuente encabezados*/
+
+body, h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+header .container-fluid {
+    background: #fafcfc;
+}
+
+header .color-forzado {
+    background: white !important;
+}
+
+section {
+    background: #fff !important;
+}
+
+/*reglas estandar*/
+
+select {
+    font-family: 'Titillium Web', sans-serif !important;
+}
+
+p {
+    font-family: 'Titillium Web', sans-serif;
+    color: #333;
+}
+
+a {
+    color: #444;
+}
+
+.muro-texto a {
+    color: #4a7092;
+    text-decoration: underline;
+}
+
+li {
+    color: #666;
+}
+
+hr {
+    padding: 0;
+    margin: 0;
+    height: 1px;
+}
+
+/*arrax*/.margen-estandar {
+    padding-top: 4rem;
+    padding-bottom: 6rem;
+}
+
+/*arraxp*/.breadcrumb {
+    font-size: 11px;
+    font-family: 'Titillium Web', sans-serif;
+    text-transform: uppercase;
+    background: transparent;
+    padding-left: 0;
+}
+/*arrax*/.muro-texto {
+    line-height: 24px;
+    font-size: 12px;
+    color: #333;
+    margin-top: -12px;
+}
+
+/*arrax*/.muro-texto-titulo {
+    font-size: 16px;
+    font-family: 'Titillium Web', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #222;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+/*arrax*/.modulo-auxiliar {
+    border: 1px solid #e1ebf2;
+    border-top: 5px solid #e1ebf2;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-bottom: 5px;
+    padding-top: 1rem !important;
+    margin-top: 2rem;
+    overflow: auto;
+    background: #fafcfc;
+}
+
+/*arrax*/.modulo-auxiliar h4 {
+    padding: 0;
+    color: #333;
+    padding-bottom: 5px;
+}
+
+/*arrax*/.menu-columna-auxiliar {
+    list-style: none;
+    padding: 0;
+    line-height: 30px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    overflow-x: hidden;
+}
+
+/*arrax*/.menu-columna-auxiliar li {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+/*arrax*/.menu-columna-auxiliar li i {
+    font-size: 9px;
+    padding-right: 1px;
+    color: #aaa;
+    position: relative;
+    bottom: 2px;
+}
+
+/*arrax*/.columna-auxiliar-titulo {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    text-decoration: unset;
+    font-size: 13px;
+    text-transform: uppercase;
+    padding-top: 1rem;
+    padding-bottom: 0.2rem;
+}
+
+/*arrax*/.columna-auxiliar-titulo i {
+    padding-right: 4px;
+}
+
+/*arrax*/.separador {
+    margin-bottom: 2rem;
+}
+/* evitar sobreescritura de textos de footer en portada*/
+@media screen and (min-width: 0px) and (max-width: 1080px) {
+    .posicionado-derecho, .posicionado-izquierdo {
+        display: none;
+    }
+}
