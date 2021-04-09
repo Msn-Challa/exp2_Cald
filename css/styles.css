@@ -13,6 +13,9 @@ hr{
 .busqueda{
      margin-right: 10px;
      max-width: 200px;
+     border-top-left-radius: 0px;
+     border-bottom-left-radius: 0px;
+
 
 }
 .boton-busqueda{
