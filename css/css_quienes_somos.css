@@ -15,7 +15,7 @@ header .color-forzado {
 }
 
 section {
-    background: #fff !important;
+    background: #DCE7E6 !important;
 }
 
 /*reglas estandar*/
@@ -132,10 +132,4 @@ hr {
 
 .separador {
     margin-bottom: 2rem;
-}
-/* evitar sobreescritura de textos de footer en portada*/
-@media screen and (min-width: 0px) and (max-width: 1080px) {
-    .posicionado-derecho, .posicionado-izquierdo {
-        display: none;
-    }
 }
