@@ -29,19 +29,6 @@ p {
     color: #333;
 }
 
-a {
-    color: #444;
-}
-
-.muro-texto a {
-    color: #4a7092;
-    text-decoration: underline;
-}
-
-li {
-    color: #666;
-}
-
 hr {
     padding: 0;
     margin: 0;
