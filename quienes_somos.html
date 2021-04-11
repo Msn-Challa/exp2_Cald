@@ -16,34 +16,52 @@
   </head>
   <body>
      <!--inicio cuerpo-->
-    <nav class="navbar navbar-expand-lg navbar-light navbar">
-      <a class="navbar-brand" href="index.html">
-        <img src="img/logo4.png" width="50" height="50" alt="">
+     <nav class="navbar navbar-expand-lg navbar-light navbar sticky-top">
+      <a class="navbar-brand" href="inicio.html">
+          <img src="img/logo4.png" width="50" height="50" alt="">
+      <a class="navbar-brand" href="inicio.html">ValhallaGeek</a>
       </a>
-      <a class="navbar-brand" href="inicio.html">VallhalaGeek</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+      
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link " href="tienda.html">Tienda </a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link " href="quienes_somos.html">Quienes somos</a>
-          </li>
-        </ul>
-
-        <form class="form-inline   ml-auto ">
-          <button type="button " class="btn btn-info boton-busqueda  "><i class="bi bi-search"></i></button>
-          <input type="search" class="form-control mr-5 busqueda " id="exampleFormControlInput1" placeholder="Buscar">
+      <div class="collapse navbar-collapse " id="navbarNav">
+          <ul class="navbar-nav mr-auto text-center">
+              <li class="nav-item active">
+                  <a class="nav-link " href="tienda.html">Tienda </a>
+              </li>
+              <li class="nav-item active">
+                  <a class="nav-link " href="quienes_somos.html">Quienes somos</a>
+              </li>
 
 
-        </form>
-        <button type="button" class="btn btn-info d-flex"><i class="bi bi-cart"></i></button>  
-      </div>  
+          </ul>
+          
+
+          <form class="form-inline d-flex flex-row "> 
+              <button type="submit" class="btn btn-info ml-5 boton-busqueda" ><i class="bi bi-search"></i></button>
+              
+              <input class="form-control   ml-0 busqueda " placeholder="Buscar" aria-label="search">
+                  
+              <button type="button  " class="btn  btn-info  m  "><i class="bi bi-cart"></i></button>
+
+
+           </form>
+          
+          
+
+
+      </div>
+
+
+
+
+
+
+
+
     </nav>
-
     <section class="margen-estandar">
       <div class="container-fluid">
 
@@ -92,41 +110,56 @@
           </div>
       </div>
     </div>
-    <footer class=" py-4 footer text-white ">
+    </section>
+    <footer class=" py-4 footer text-white mt-7 pelado  ">
       <div class="container">
           <nav class="row">
-            <a href="#" class=" text-reset text-uppercase d-flex  align-items-center mr-2  ">
-              <img src="img/logo4.png" width="50" height="50" class="img-logo " ></a>
+
+              <a href="#" class=" text-reset text-uppercase d-flex  align-items-center mr-2  ">
+                  <img src="img/logo4.png" width="35" height="35" class="img-logo " >
+                  
+              </a>
+
               <ul class="col-3 list-unstyled mr-3">
-                <li class="font-weight-bold text-uppercase">Contacto</li>
-                <li><a href="#" class="text-reset">Cel +56912345678 </a></li>
-                <li><a target="_blank"
+                  <li class="font-weight-bold text-uppercase">Contacto</li>
+                  <li><a href="#" class="text-reset">Cel +56912345678 </a></li>
+                  
+                  <li><a target="_blank"
                           href="https://www.google.cl/maps/place/Miraflores+22,+Santiago,+Regi%C3%B3n+Metropolitana/@-33.4422954,-70.6471414,17z/data=!3m1!4b1!4m5!3m4!1s0x9662c59f7bcde2c7:0x5541267bc696a344!8m2!3d-33.4422999!4d-70.6449527"
                           class="text-reset">Address Miraflores 22 Santiago </a></li>
-                <li><a href="#" class="text-reset">Correo xxxxxx@duocuc.cl </a></li>
+                  <li><a href="#" class="text-reset">Correo xxxxxx@duocuc.cl </a></li>
+
               </ul>
               <ul class="col-3 list-unstyled mr-5 pr-3">
-                <li class="font-weight-bold text-uppercase ">Integrantes</li>
-                <li><a href="https://www.linkedin.com/in/robert-calderon-vasquez-a8a32b1ba"  target="_blank" class="text-reset">Robert Calderon </a></li>
-                <li><a href="#" class="text-reset">Gustavo Iriarte </a></li>
-                <li><a href="https://www.linkedin.com/in/benjam%C3%ADn-andr%C3%A9s-rosales-rojas-5346581ba/" target="_blank" class="text-reset">Benjamin Rosales </a></li>
+                  <li class="font-weight-bold text-uppercase ">Integrantes</li>
+                  <li><a href="https://www.linkedin.com/in/robert-calderon-vasquez-a8a32b1ba"  target="_blank" class="text-reset">Robert Calderon </a></li>
+                  <li><a href="#" class="text-reset">Gustavo Iriarte </a></li>
+                  <li><a href="https://www.linkedin.com/in/benjam%C3%ADn-andr%C3%A9s-rosales-rojas-5346581ba/" target="_blank" class="text-reset">Benjamin Rosales </a></li>
+
               </ul>
               <ul class="col-3 list-unstyled">
-                <li class="font-weight-bold text-uppercase"> Redes sociales</li>
-                <li class="d-flex justify-content-between ">
-                  <a href="#" class="text-reset"><i class="bi bi-facebook"></i> </a>
-                  <a href="#" class="text-reset"><i class="bi bi-instagram"></i> </a>
-                  <a href="#" class="text-reset"><i class="bi bi-twitter"></i> </a>
-                  <a href="#" class="text-reset"><i class="bi bi-twitch"></i> </a>
+                  <li class="font-weight-bold text-uppercase"> Redes sociales</li>
+                  <li class="d-flex justify-content-between ">
+                      <a href="#" class="text-reset"><i class="bi bi-facebook"></i> </a>
+                      <a href="https://www.instagram.com/vallhalageek/" class="text-reset"><i class="bi bi-instagram"></i> </a>
+                      <a href="#" class="text-reset"><i class="bi bi-twitter"></i> </a>
+                      <a href="#" class="text-reset"><i class="bi bi-twitch"></i> </a>
                   </li>
+
               </ul>
+
+
           </nav>
+
+
+
       </div>
-      <nav class="container-fluid">
+      <nav class="container-fluid ">
           <h6 class="h5f">@Copyrigth Derechos reservados.</h6>
       </nav>
-    </section>
-    </footer>
+
+  </footer>
+  
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
